@@ -1,0 +1,22 @@
+# Loan Management System – Business Rules
+
+1. Every customer must have a unique Customer ID.
+2. Customers must be at least 18 years old.
+3. KYC verification is mandatory before loan approval.
+4. A customer cannot submit duplicate pending loan applications.
+5. Loan amount and tenure must be within predefined limits.
+6. Credit score and monthly income must be verified.
+7. Loan eligibility must be calculated automatically.
+8. Only authorized users can approve or reject loans.
+9. Every rejection must include a reason.
+10. Approved loans must have a unique Loan Account Number.
+11. EMI must be calculated automatically based on interest rate and tenure.
+12. Every loan must have a repayment schedule.
+13. Late payments must incur penalties according to the loan agreement.
+14. Every payment must have a unique transaction ID.
+15. Only approved loans can be disbursed.
+16. Loan disbursement must be recorded.
+17. Loans can be closed only after all outstanding dues are cleared.
+18. All financial transactions must be recorded in audit logs.
+19. Users must have role-based access permissions.
+20. Customer financial information must be protected and encrypted.
